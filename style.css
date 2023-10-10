@@ -1,0 +1,167 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#n1{
+    background-color:#e4f9f5;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 760px;
+    margin:  0;
+
+}
+#n1 img:nth-of-type(1){
+position:relative;
+    left:900px;
+    top: 50px;
+    width: 350px;
+    height: 160px;
+}
+#n1 img:nth-of-type(2){
+    position: absolute;
+    bottom: 310px;
+    left: 250px;
+    width: 350px;
+    height: 160px;
+}
+
+#n1 img:nth-of-type(3){
+    position:absolute;
+    top: 410px;
+    right: 300px;
+    width: 900px;
+    height: 350px;
+}
+#n1 p:nth-of-type(1){
+    font-family:'style script';
+    font-size:70px;
+    text-align: center;
+    color:rgb(104, 240, 104);
+    position: relative;
+    bottom: 50px;
+}
+#n1 p:nth-of-type(2){
+    color:rgb(104, 240, 104);
+    font-family:'Rochester';
+    font-size: 60px;
+    text-align: center; 
+    position: relative;  
+    bottom: 90px;
+}
+#n2{
+    text-align: center;
+}
+#n2 p:nth-of-type(1){
+    font-size: 80px;
+    color: aquamarine;
+    font-family: 'just Another Hand';
+    margin: 5px 0;
+}
+#n2 p:nth-of-type(2) , p:nth-of-type(3){
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px 0;
+    color: darkgray;
+}
+#n2 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: solid 2px black;
+    margin-top: 20px;
+   
+} 
+h1{
+    color: aquamarine;
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.n3 , .n4, .n5, .n6{
+    margin:120px auto;
+    width: 800px;
+   text-align: left;
+}
+
+.n3 img , .n5 img{
+    float: left;
+    width: 220px;
+    height: 220px;
+    margin-right: 20px;
+    border-radius: 50%;
+    border: solid 2px black;
+}
+.n4 img , .n6 img{
+    float: right;
+    width: 220px;
+    height: 220px;
+    margin-right: 20px;
+    border-radius: 50%;
+    border: solid 2px black;
+}
+
+
+.t1{
+    color: aquamarine;
+    
+}
+.t2{
+    color:gray;
+   
+
+}
+
+.n3 p, .n4 p, .n5 p, .n6 p{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a{
+    border-radius: 15px;
+    border: solid 1px aquamarine;
+    background-color: aquamarine;
+    font-size: 20px;
+    padding: 8px;
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+input[type="submit"]{
+    font-size: 20px;
+    color: whitesmoke;
+}
+#t3{
+    text-align: center;
+}
+#t3 h2{
+color: aquamarine;
+font-size: 30px;
+font-family:'Rochester';
+}
+#t3 p{
+    font-size: 25px;
+}
+footer{
+    background-color: aquamarine;
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    margin-top: 20px;
+}
+footer a{
+    text-decoration: none;
+    position: relative;
+    top: 50px;
+}
+footer p{
+    position: relative;
+    top: 70px;
+    color:mediumaquamarine;
+}
+ footer a:link{
+    color:mediumturquoise;
+}
+footer a:visited{
+    color: blueviolet;
+}
+ footer a:hover{
+    color: gray;
+}
